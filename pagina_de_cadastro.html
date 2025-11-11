@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos-NW</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div class="containercad">
+        <div class="titulo1">
+        <div class="letras">
+        <h2>Cadastre seu Produto Aqui:</h2>
+        </div>
+       <div class="btn_sair"><button><a href="login.html">Sair</a></button></div>
+        </div>
+     <form>
+        <div class="inputbox">
+            <div class="form_group">
+                <label for="name">Nome:</label>
+                <input id="name" type="text" paceholder="Escreva aqui...">
+            </div>
+            <div class="form_group">
+                <label for="fornecedor">Fornecedor:</label>
+                <input id="fornecedor" type="text" paceholder="Fornecedor...">
+            </div>
+             <div class="form_group">
+                <label for="cod_barras">Código de Barras:</label>
+                <input id="cod_barras" type="number" paceholder="Insira o código...">
+            </div>
+            <div class="form-preco">
+                <label for="produto-preco" class="produto-preco">Preço (R$)
+                </label>
+                <input type="number" id="produto-preco" class="produto-preco" step="0.01" min="0" placeholder="0,00">
+            </div>
+            <div class="form_group">
+                <label for="text">Descrição breve do produto: </label>
+                <textarea id="descricao" type="text" rows="5" paceholder="Descreva aqui..."></textarea>
+            </div>
+        </div>
+         <div class="buttoncadastro">
+            <div class="cadastrob"><button><a href="prod_cad.html">Cadastrar</a></button></div>
+
+            <div class="cadastrob"><button><a href="#">Cancelar</a></button></div>
+        </div>
+    </form>
+    </div>      
+    <script src="javascript.js"></script>
+</body>
+</html>

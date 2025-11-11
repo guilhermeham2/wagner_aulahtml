@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #b7e2ff; 
+    display: flex;
+    justify-content: center; 
+    padding: 20px;
+}
+.containercad{
+    display:flex;
+    background-color: floralwhite;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 70px;
+    box-shadow: 4px 4px 4px black;
+    width: 50%;
+}
+.titulo1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+.titulo1 h2{
+     font-size: 24px;
+    color: black;
+}
+.titulo1 button{
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.titulo1 a{
+    text-decoration: none;
+}
+.titulo1 button, button :hover{
+    background-color:rgb(255, 177, 177);
+    padding: 8px 8px;
+    width: auto;
+}
+
+.form_group{
+  display: flex;
+  flex-direction: column;
+  margin bottom: 20px;
+  width:100%;
+}
+.form_preco{
+  display: flex;
+  flex-direction: column;
+  margin bottom: 20px;
+  width: 100%;
+}
+input [type=text],input [type=number],textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+.buttoncadastro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+.cadastrob button{
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.cadastrob button, button :hover{
+    background-color:rgb(172, 241, 163);
+    padding: 8px 8px;
+    width: auto;
+}
+.cadastrob a{
+    text-decoration: none;
+}
+
+/* css da página de login */
+
+.login_container{
+    display:flex;
+    background-color: floralwhite;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 70px;
+    box-shadow: 4px 4px 4px black;
+    width: 50%;
+}
+.titulo_da_page {
+  .titulo_da_page 
+    text-align: center;
+    margin-bottom: 25px;
+}
+.logo-text h1 {
+  color: black; 
+  font-size: 25px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold; 
+  text-align: center; 
+  margin-bottom: 17px; 
+  width: 100%;
+}
+.logo-subtext h2 {
+  color: black;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+  font-weight: normal; 
+  margin-top: 10px; 
+}
+
+.Usuário-form {
+    width: 100%;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    outline: none;
+}
+.forgot-password {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+.btn_primary, .btn-secondary {
+     background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.btn_primary {
+    background-color: #0056b3;
+}
+
+.btn_primary:hover {
+    background-color: #a8f39e;
+}
+.btn-secondary {
+    background-color: #6c757d; 
+}
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+.btn_primary a, .btn-secondary a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: block; 
+}
